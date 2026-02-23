@@ -1,204 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nitin Kumar | .NET Developer</title>
+<h1 align="center">Hi 👋, I'm Nitin Kumar</h1>
+<h3 align="center">🚀 Full Stack .NET Developer | ASP.NET Core | SQL Server</h3>
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<p align="center">
+  <a href="https://www.linkedin.com/in/nitin-kumar-b51876302/">
+    <img src="https://img.shields.io/badge/LinkedIn-Nitin%20Kumar-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <img src="https://img.shields.io/badge/Experience-7%2B%20Years-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-.NET%20Backend-informational?style=for-the-badge" />
+</p>
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f4f6f9;
-    color: #333;
-}
+---
 
-.container {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-}
+## 👨‍💻 About Me
 
-/* Header */
-.header {
-    background: linear-gradient(135deg, #0d6efd, #6610f2);
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
+- 💼 7+ years of experience in .NET development  
+- 🔹 Strong in **ASP.NET Core, MVC, Web API, C#**  
+- 🔹 Experience with **ADO.NET & Entity Framework Core**  
+- 🌱 Currently learning **React and modern frontend development**  
+- 🔹 Strong knowledge of **SQL Server & T-SQL**  
+- 🔐 Experience with **JWT Authentication & API Security**  
+- 🧩 Interested in **Microservices Architecture**  
+- 🎯 Preparing for **Senior .NET Developer roles**
 
-.profile-header {
-    text-align: center;
-}
+---
 
-.profile-pic {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
-    margin-bottom: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
-}
+## 🛠️ Tech Stack
 
-.profile-pic:hover {
-    transform: scale(1.05);
-}
+### ⚙️ Backend
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=flat&logo=.net&logoColor=white)
+![Web API](https://img.shields.io/badge/Web%20API-008080?style=flat)
+![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=flat)
+![Entity Framework](https://img.shields.io/badge/EF%20Core-512BD4?style=flat)
 
-.subtitle {
-    margin-top: 10px;
-    font-size: 18px;
-    opacity: 0.95;
-}
+### 🎨 Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![React](https://img.shields.io/badge/React-Beginner-61DAFB?style=flat&logo=react&logoColor=black)
 
-/* Cards */
-.card {
-    background: white;
-    margin: 25px auto;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
+### 🗄️ Database
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![T-SQL](https://img.shields.io/badge/T--SQL-0078D4?style=flat)
 
-.card h2 {
-    margin-bottom: 15px;
-    color: #0d6efd;
-}
+---
 
-ul {
-    line-height: 1.8;
-}
+## 📌 Featured Projects
 
-/* Tech badges */
-.tech-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
+### 🔹 Member Management System
+- Full CRUD application using ASP.NET Core  
+- Role-based login system  
+- ADO.NET + SQL Server  
+- Razor Views  
 
-.badge {
-    background: #e7f1ff;
-    color: #0d6efd;
-    padding: 8px 14px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-}
+### 🔹 React Member Update Module
+- Tabbed UI (Member, Family, Payment, Committee, Rally)  
+- Responsive Bootstrap Design  
+- Private Layout with Header, Sidebar & Footer  
+- JSON-based dynamic data handling  
 
-/* Projects */
-.project {
-    margin-bottom: 15px;
-}
+---
 
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
-    color: #bbb;
-    margin-top: 40px;
-}
+## 📊 GitHub Stats
 
-/* Responsive */
-@media (max-width: 600px) {
-    .header h1 {
-        font-size: 24px;
-    }
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=localhostnitin&show_icons=true&theme=tokyonight" />
+</p>
 
-    .subtitle {
-        font-size: 14px;
-    }
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=localhostnitin&layout=compact&theme=tokyonight" />
+</p>
 
-    .profile-pic {
-        width: 110px;
-        height: 110px;
-    }
-}
-</style>
-</head>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=localhostnitin&theme=tokyonight" />
+</p>
 
-<body>
+---
 
-<header class="header">
-    <div class="container profile-header">
-        <!-- 👉 Put your image in same folder and name profile.jpg -->
-        <img src="profile.jpg" alt="Nitin Kumar" class="profile-pic">
+## 🎯 Currently Learning
 
-        <h1>Hi, I'm Nitin Kumar 👋</h1>
-        <p class="subtitle">
-            Full Stack .NET Developer | ASP.NET Core | React (Beginner) | SQL Server
-        </p>
-    </div>
-</header>
+- Advanced ASP.NET Core  
+- Clean Architecture  
+- Microservices  
+- System Design  
 
-<section class="card container">
-    <h2>👨‍💻 About Me</h2>
-    <ul>
-        <li>✔ 6+ years of experience in .NET development</li>
-        <li>✔ Strong in ASP.NET Core, MVC, Web API, C#</li>
-        <li>✔ Experience with ADO.NET & Entity Framework Core</li>
-        <li>✔ Currently learning React and modern frontend development</li>
-        <li>✔ Strong knowledge of SQL Server & T-SQL</li>
-        <li>✔ Experience with JWT Authentication & API Security</li>
-        <li>✔ Interested in Microservices Architecture</li>
-    </ul>
-</section>
+---
 
-<section class="card container">
-    <h2>🛠️ Tech Stack</h2>
-    <div class="tech-grid">
-        <span class="badge">C#</span>
-        <span class="badge">ASP.NET Core</span>
-        <span class="badge">Web API</span>
-        <span class="badge">ADO.NET</span>
-        <span class="badge">Entity Framework</span>
-        <span class="badge">React (Beginner)</span>
-        <span class="badge">JavaScript</span>
-        <span class="badge">Bootstrap</span>
-        <span class="badge">SQL Server</span>
-        <span class="badge">JWT</span>
-    </div>
-</section>
+## 📫 Connect With Me
 
-<section class="card container">
-    <h2>📌 Featured Projects</h2>
+- 💼 LinkedIn: https://www.linkedin.com/in/nitin-kumar-b51876302/  
+- 📧 Email: nitinkumar0946912@gmail.com  
 
-    <div class="project">
-        <h3>Member Management System</h3>
-        <p>
-            Full CRUD application using ASP.NET Core with role-based login,
-            ADO.NET, SQL Server, and Razor Views.
-        </p>
-    </div>
+---
 
-    <div class="project">
-        <h3>React Member Update Module</h3>
-        <p>
-            Modern tabbed UI with responsive Bootstrap design and
-            JSON-based dynamic data handling.
-        </p>
-    </div>
-</section>
-
-<section class="card container">
-    <h2>🎯 Currently Learning</h2>
-    <ul>
-        <li>Advanced ASP.NET Core</li>
-        <li>Clean Architecture</li>
-        <li>Microservices</li>
-        <li>System Design</li>
-    </ul>
-</section>
-
-<footer class="footer">
-    <p>© 2026 Nitin Kumar | Full Stack Developer</p>
-</footer>
-
-</body>
-</html>
+⭐️ From **Nitin Kumar**
